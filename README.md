@@ -32,9 +32,24 @@ This portfolio documents my progress through a Python programming course designe
 | # | Project | Key Skills | Status |
 |---|---|---|---|
 | 1 | [Unit Converter](#) | Variables, functions, input/output | ✅ Complete | 
-| 2 | [Number Guessing Game](#) | Loops, conditionals, random | ✅ Complete
-| 3 |
-| 4 |
-|
-| 5 |
-| 6 |
+| 2 | [Number Guessing Game](#) | Loops, conditionals, random | ✅ Complete |
+| 3 | [To-Do List](#) | Lists, functions, data structures | ✅ Complete |
+| 4 | [Student Grade Calculator](#) | Dictionaries, validation, error handling | ✅ Complete |
+| 5 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
+| 6 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
+
+---
+
+## Skills I Have Developed 
+
+**Progromming Concepts**
+- Writing clean, wells-commented Python code
+- Using functions to organise and reuse code
+- Handling user input safely with validation
+
+**Tools and Technologies**
+- Python 3 (Thonny IDE)
+- Jupyter Notebooks
+- Git version control
+- GitHub for code sharing and portfolio management
+- Markdown for documentation
