@@ -21,4 +21,20 @@ This portfolio documents my progress through a Python programming course designe
 - Data structures (lists, discitonaries, tuples, sets)
 - Validation and error handling
 - File handling
+- Object-Orientated Perogramming (OOP)
+- version control with Git and Github
+- Work with Jupyter Notebooks
 
+---
+
+## Portfolio Projects
+
+| # | Project | Key Skills | Status |
+|---|---|---|---|
+| 1 | [Unit Converter](#) | Variables, functions, input/output | ✅ Complete | 
+| 2 | [Number Guessing Game](#) | Loops, conditionals, random | ✅ Complete
+| 3 |
+| 4 |
+|
+| 5 |
+| 6 |
