@@ -55,3 +55,8 @@ This portfolio documents my progress through a Python programming course designe
 - Markdown for documentation
 
 ---
+
+## Contact
+
+- **GitHub:** [your-username]
+- **Email:** [your school email]
