@@ -58,5 +58,5 @@ This portfolio documents my progress through a Python programming course designe
 
 ## Contact
 
-- **GitHub:** [willhall6767]
-- **Email:** [wh09606@gmail.com]
+- **GitHub:** willhall6767
+- **Email:** wh09606@gmail.com
