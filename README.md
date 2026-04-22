@@ -65,3 +65,11 @@ This portfolio documents my progress through a Python programming course designe
 
 ## Converter Project Code
 [Converter](https://github.com/willhall6767/Python-Award-Option/blob/main/Week1/week1challenges.ipynb)
+```
+def FTempConverter():
+    '''Tem converter'''
+    temp = float(input(" Enter Celcius temp: "))
+    f = (temp*9)/5+32
+    print(f"{temp} C is {f} F")
+FTempConverter()
+```
