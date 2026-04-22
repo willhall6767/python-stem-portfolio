@@ -64,7 +64,7 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 ## Project Codes
-[- Converter](https://github.com/willhall6767/Python-Award-Option/blob/main/Week1/week1challenges.ipynb)
+- Converter
 ``` Python
 def FTempConverter():
     '''Tem converter'''
@@ -73,7 +73,7 @@ def FTempConverter():
     print(f"{temp} C is {f} F")
 FTempConverter()
 ```
-[- Number Guessing Game]
+- Number Guessing Game
 ``` Python
 import random
 
@@ -96,4 +96,50 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
+- Studen Grade Calculater
+``` Python
+def get_grade(average):
+    """Return a letter grade based on average percentage."""
+    if average >= 70:
+        return "A"
+    elif average >= 60:
+        return "B"
+    elif average >= 50:
+        return "C"
+    elif average >= 40:
+        return "D"
+    else:
+        return "U"
 
+def get_valid_score(subject):
+    """Ask for a score and keep asking until a valid number is entered."""
+    while True:
+        try:
+            score = float(input(f"Enter score for {subject} (0-100): "))
+            if 0 <= score <= 100:
+                return score
+            else:
+                print("Score must be between 0 and 100.")
+        except ValueError:
+            print("Please enter a number.")
+
+def calculate_results():
+    """Collect scores and display results."""
+    name = input("Student name: ")
+    subjects = ["Maths", "English", "Science"]
+    scores = {}
+    
+    for subject in subjects:
+        scores[subject] = get_valid_score(subject)
+    
+    average = sum(scores.values()) / len(scores)
+    grade = get_grade(average)
+    
+    print(f"\n=== Results for {name} ===")
+    for subject, score in scores.items():
+        print(f"  {subject}: {score:.1f}")
+    print(f"Average: {average:.1f}%")
+    print(f"Grade: {grade}")
+
+calculate_results()
+```
