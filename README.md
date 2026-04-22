@@ -63,9 +63,9 @@ This portfolio documents my progress through a Python programming course designe
 
 ---
 
-## Converter Project Code
-[Converter](https://github.com/willhall6767/Python-Award-Option/blob/main/Week1/week1challenges.ipynb)
-```
+## Project Codes
+[- Converter](https://github.com/willhall6767/Python-Award-Option/blob/main/Week1/week1challenges.ipynb)
+``` Python
 def FTempConverter():
     '''Tem converter'''
     temp = float(input(" Enter Celcius temp: "))
@@ -73,3 +73,27 @@ def FTempConverter():
     print(f"{temp} C is {f} F")
 FTempConverter()
 ```
+[- Number Guessing Game]
+``` Python
+import random
+
+def play_game():
+    """Play one round of the guessing game."""
+    secret = random.randint(1, 100)
+    attempts = 0
+    
+    print("I'm thinking of a number between 1 and 100.")
+    
+    while True:
+        guess = int(input("Your guess: "))
+        attempts += 1
+        
+        if guess < secret:
+            print("Too low! Try again.")
+        elif guess > secret:
+            print("Too high! Try again.")
+        else:
+            print(f"Correct! You got it in {attempts} attempts.")
+            break  # Exit the loop
+```
+
