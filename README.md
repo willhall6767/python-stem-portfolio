@@ -7,7 +7,7 @@
 
 ## About Me
 
-Hello, my is Will. I am 16 years old and I was born on the 21st of June 2009. Some of the thins that I enjoy are designing things, skiing, golfing and playign tennis. The A-Level subjects that I take are 3D Design, Maths and Economics
+Hello, my is Will. I am 16 years old and I was born on the 21st of June 2009. Some of the things that I enjoy are designing things, skiing, golfing and playign tennis. The A-Level subjects that I take are 3D Design, Maths and Economics
 
 ---
 
@@ -97,7 +97,7 @@ def play_game():
             break  # Exit the loop
 ```
 - Student Grade Calculater
-      For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.
+      - For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
