@@ -98,7 +98,7 @@ def play_game():
             break  # Exit the loop
 ```
 - Student Grade Calculater
-      - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
+  - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
