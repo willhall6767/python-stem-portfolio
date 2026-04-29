@@ -74,7 +74,7 @@ def FTempConverter():
 FTempConverter()
 ```
 - Number Guessing Game
-      - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
+  - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
 ``` Python
 import random
 
