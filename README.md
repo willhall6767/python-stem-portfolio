@@ -74,7 +74,7 @@ def FTempConverter():
 FTempConverter()
 ```
 - Number Guessing Game
-      - "\033[1mFor this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.\033[0m"
+      - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
 ``` Python
 import random
 
@@ -98,7 +98,7 @@ def play_game():
             break  # Exit the loop
 ```
 - Student Grade Calculater
-      - For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.
+      - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
