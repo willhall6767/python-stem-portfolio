@@ -97,6 +97,60 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
+- To-Do List Manager
+  - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
+``` Python
+def show_tasks(tasks):
+    """Display all tasks with their numbers."""
+    if len(tasks) == 0:
+        print("No tasks yet!")
+        return
+    
+    print("\n=== Your Tasks ===")
+    for i, task in enumerate(tasks, start=1):
+        print(f"{i}. {task}")
+    print()
+
+def add_task(tasks):
+    """Add a new task to the list."""
+    new_task = input("Enter task: ")
+    tasks.append(new_task)
+    print(f"Added: '{new_task}'")
+
+def remove_task(tasks):
+    """Remove a task by number."""
+    show_tasks(tasks)
+    number = int(input("Enter task number to remove: "))
+    if 1 <= number <= len(tasks):
+        removed = tasks.pop(number - 1)
+        print(f"Removed: '{removed}'")
+    else:
+        print("Invalid number.")
+
+def main():
+    tasks = []
+    
+    while True:
+        print("=== To-Do List ===")
+        print("1. View tasks")
+        print("2. Add task")
+        print("3. Remove task")
+        print("4. Quit")
+        
+        choice = input("Choose: ")
+        
+        if choice == "1":
+            show_tasks(tasks)
+        elif choice == "2":
+            add_task(tasks)
+        elif choice == "3":
+            remove_task(tasks)
+        elif choice == "4":
+            print("Goodbye!")
+            break
+
+main()
+```
 - Student Grade Calculater
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
 ``` Python
@@ -146,6 +200,7 @@ def calculate_results():
 calculate_results()
 ```
 - OOP Bank Account
+  - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
 ``` Python
 class BankAccount:
     """A simple bank account class."""
@@ -221,7 +276,8 @@ def main():
 
 main()
 ```
-- Student Records Database
+- Contact Book with File Saving
+  - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
 ``` Python
 import os
 
