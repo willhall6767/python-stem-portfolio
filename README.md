@@ -73,8 +73,14 @@ def FTempConverter():
     print(f"{temp} C is {f} F")
 FTempConverter()
 ```
+What should happen:
+<img width="327" height="58" alt="SS5" src="https://github.com/user-attachments/assets/b941d561-5735-4d8c-9dd6-288f0f4f414b" />
+
+```
+```
 - Number Guessing Game
   - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
+```
 ``` Python
 import random
 
@@ -97,7 +103,7 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
-#### What should happen:
+What should happen:
 <img width="518" height="152" alt="SS1" src="https://github.com/user-attachments/assets/e474027b-24c3-49d9-aa9f-419c79a6663c" />
 
 ```
