@@ -98,8 +98,9 @@ def play_game():
             break  # Exit the loop
 ```
 #### What should happen:
-```
+
 <img width="492" height="147" alt="{BD09105D-CC7C-4C2E-B27D-609CFCD0662E}" src="https://github.com/user-attachments/assets/c1be5c96-631f-4fae-ade5-c1505f0cf46b" />
+
 ```
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
@@ -158,6 +159,7 @@ main()
 What should happen:
 
 <img width="719" height="797" alt="{D22EC756-BBF7-4E40-9FAF-93BB3456B56B}" src="https://github.com/user-attachments/assets/5e43b9ec-bbe5-4f1e-b6ca-f058e682b646" />
+
 ```
 - Student Grade Calculater
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
