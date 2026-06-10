@@ -102,7 +102,6 @@ def play_game():
 I'm thinking of a number between 1 and 100.
 Your guess: 2
 Too low! Try again.
-
 Your guess: 6
 Too low! Try again.
 Your guess: 50
@@ -115,6 +114,7 @@ Your guess: 57
 Too high! Try again.
 Your guess: 55
 Correct! You got it in 7 attempts.
+
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
 ``` Python
@@ -168,6 +168,8 @@ def main():
             break
 
 main()
+```
+What should happen: 
 ```
 - Student Grade Calculater
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
