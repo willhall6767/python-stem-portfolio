@@ -98,12 +98,12 @@ def play_game():
             break  # Exit the loop
 ```
 #### What should happen:
-
-<img width="492" height="147" alt="{BD09105D-CC7C-4C2E-B27D-609CFCD0662E}" src="https://github.com/user-attachments/assets/c1be5c96-631f-4fae-ade5-c1505f0cf46b" />
+<img width="518" height="152" alt="SS1" src="https://github.com/user-attachments/assets/e474027b-24c3-49d9-aa9f-419c79a6663c" />
 
 ```
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
+
 ``` Python
 def show_tasks(tasks):
     """Display all tasks with their numbers."""
