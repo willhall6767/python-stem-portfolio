@@ -97,6 +97,22 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
+- WHAT SHOULD HAPPEN:
+I'm thinking of a number between 1 and 100.
+Your guess: 2
+Too low! Try again.
+Your guess: 6
+Too low! Try again.
+Your guess: 50
+Too low! Try again.
+Your guess: 70
+Too high! Try again.
+Your guess: 60
+Too high! Try again.
+Your guess: 57
+Too high! Try again.
+Your guess: 55
+Correct! You got it in 7 attempts.
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
 ``` Python
