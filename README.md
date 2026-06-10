@@ -358,3 +358,9 @@ def main():
 
 main()
 ```
+What should happen:
+
+<img width="581" height="473" alt="SS4" src="https://github.com/user-attachments/assets/051942bc-e2a5-4c90-95d5-e4d5b80eee89" />
+
+```
+
