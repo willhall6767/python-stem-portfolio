@@ -102,6 +102,7 @@ def play_game():
 I'm thinking of a number between 1 and 100.
 Your guess: 2
 Too low! Try again.
+
 Your guess: 6
 Too low! Try again.
 Your guess: 50
