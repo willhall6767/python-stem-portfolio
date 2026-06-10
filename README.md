@@ -296,8 +296,15 @@ def main():
 
 main()
 ```
+What should happen:
+
+<img width="582" height="427" alt="image" src="https://github.com/user-attachments/assets/992e3cec-8f10-4625-bd87-5c06607732a2" />
+
+```
+```
 - Contact Book with File Saving
   - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
+```
 ``` Python
 import os
 
