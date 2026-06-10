@@ -98,22 +98,8 @@ def play_game():
             break  # Exit the loop
 ```
 #### What should happen:
-
-I'm thinking of a number between 1 and 100.
-Your guess: 2
-Too low! Try again.
-Your guess: 6
-Too low! Try again.
-Your guess: 50
-Too low! Try again.
-Your guess: 70
-Too high! Try again.
-Your guess: 60
-Too high! Try again.
-Your guess: 57
-Too high! Try again.
-Your guess: 55
-Correct! You got it in 7 attempts.
+```
+<img width="492" height="147" alt="{BD09105D-CC7C-4C2E-B27D-609CFCD0662E}" src="https://github.com/user-attachments/assets/c1be5c96-631f-4fae-ade5-c1505f0cf46b" />
 ```
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
@@ -170,6 +156,7 @@ def main():
 main()
 ```
 What should happen:
+
 <img width="719" height="797" alt="{D22EC756-BBF7-4E40-9FAF-93BB3456B56B}" src="https://github.com/user-attachments/assets/5e43b9ec-bbe5-4f1e-b6ca-f058e682b646" />
 ```
 - Student Grade Calculater
