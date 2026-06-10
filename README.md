@@ -97,7 +97,8 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
-- WHAT SHOULD HAPPEN:
+#### What should happen:
+
 I'm thinking of a number between 1 and 100.
 Your guess: 2
 Too low! Try again.
