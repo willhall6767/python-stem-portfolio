@@ -162,8 +162,10 @@ What should happen:
 <img width="719" height="797" alt="{D22EC756-BBF7-4E40-9FAF-93BB3456B56B}" src="https://github.com/user-attachments/assets/5e43b9ec-bbe5-4f1e-b6ca-f058e682b646" />
 
 ```
+```
 - Student Grade Calculater
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
+```
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
