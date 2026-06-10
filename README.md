@@ -114,7 +114,7 @@ Your guess: 57
 Too high! Try again.
 Your guess: 55
 Correct! You got it in 7 attempts.
-
+```
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
 ``` Python
@@ -169,10 +169,59 @@ def main():
 
 main()
 ```
-What should happen: 
+What should happen:
+=== To-Do List ===
+1. View tasks
+2. Add task
+3. Remove task
+4. Quit
+Choose: 2
+Enter task: shopping
+Added: 'shopping'
+=== To-Do List ===
+1. View tasks
+2. Add task
+3. Remove task
+4. Quit
+Choose: 2
+Enter task: eat
+Added: 'eat'
+=== To-Do List ===
+1. View tasks
+2. Add task
+3. Remove task
+4. Quit
+Choose: 1
+
+=== Your Tasks ===
+1. shopping
+2. eat
+
+=== To-Do List ===
+1. View tasks
+2. Add task
+3. Remove task
+4. Quit
+Choose: 3
+
+=== Your Tasks ===
+1. shopping
+2. eat
+
+Enter task number to remove: 2
+Removed: 'eat'
+=== To-Do List ===
+1. View tasks
+2. Add task
+3. Remove task
+4. Quit
+Choose: 1
+
+=== Your Tasks ===
+1. shopping 
 ```
 - Student Grade Calculater
-  - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects.**
+  - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
