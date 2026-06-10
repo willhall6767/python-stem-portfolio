@@ -215,6 +215,7 @@ calculate_results()
 What should happen:
 
 <img width="447" height="225" alt="image" src="https://github.com/user-attachments/assets/8c955517-5b3f-453f-8c05-44f353e4e0fd" />
+
 ```
 ```
 - OOP Bank Account
