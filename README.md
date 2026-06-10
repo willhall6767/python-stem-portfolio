@@ -212,8 +212,14 @@ def calculate_results():
 
 calculate_results()
 ```
+What should happen:
+
+<img width="447" height="225" alt="image" src="https://github.com/user-attachments/assets/8c955517-5b3f-453f-8c05-44f353e4e0fd" />
+```
+```
 - OOP Bank Account
   - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
+```
 ``` Python
 class BankAccount:
     """A simple bank account class."""
