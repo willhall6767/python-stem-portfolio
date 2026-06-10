@@ -101,9 +101,10 @@ def play_game():
 <img width="518" height="152" alt="SS1" src="https://github.com/user-attachments/assets/e474027b-24c3-49d9-aa9f-419c79a6663c" />
 
 ```
+```
 - To-Do List Manager
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
-
+```
 ``` Python
 def show_tasks(tasks):
     """Display all tasks with their numbers."""
