@@ -64,6 +64,7 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 -  ## Unit Converter |[Portfolio Projects](#Portfolio-projects)
+  - **A program that converts between common units.**
 ``` Python
 def FTempConverter():
     '''Tem converter'''
