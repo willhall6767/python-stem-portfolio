@@ -259,11 +259,11 @@ What should happen:
 
 <img width="719" height="797" alt="{D22EC756-BBF7-4E40-9FAF-93BB3456B56B}" src="https://github.com/user-attachments/assets/5e43b9ec-bbe5-4f1e-b6ca-f058e682b646" />
 
-```
-```
+
+
 - ## Student Grade Calculator |[Portfolio Projects](#Portfolio-projects)
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
-```
+
 ``` Python
 def get_grade(average):
     """Return a letter grade based on average percentage."""
@@ -314,11 +314,11 @@ What should happen:
 
 <img width="447" height="225" alt="image" src="https://github.com/user-attachments/assets/8c955517-5b3f-453f-8c05-44f353e4e0fd" />
 
-```
-```
+
+
 - ## OOP Bank Account |[Portfolio Projects](#Portfolio-projects)
   - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
-```
+
 ``` Python
 class BankAccount:
     """A simple bank account class."""
@@ -398,8 +398,8 @@ What should happen:
 
 <img width="582" height="427" alt="image" src="https://github.com/user-attachments/assets/992e3cec-8f10-4625-bd87-5c06607732a2" />
 
-```
-```
+
+
 - ## Contact Book with File Saving |[Portfolio Projects](#Portfolio-projects)
   - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
 ```
@@ -460,5 +460,4 @@ What should happen:
 
 <img width="581" height="473" alt="SS4" src="https://github.com/user-attachments/assets/051942bc-e2a5-4c90-95d5-e4d5b80eee89" />
 
-```
 
