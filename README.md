@@ -37,7 +37,7 @@ This portfolio documents my progress through a Python programming course designe
 | 4 | [Student Grade Calculator](#Student-grade-calculator-portfolio-projects) | Dictionaries, validation, error handling | ✅ Complete |
 | 5 | [OOP Bank Account](#OOP-Bank-Account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
 | 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
-
+| 7 | [Name chooser](#Name-chooser-portfolio-projects) | Entering, analysing, showing | ✅ Complete |
 ---
 
 ## Skills I Have Developed 
@@ -460,4 +460,23 @@ What should happen:
 
 <img width="581" height="473" alt="SS4" src="https://github.com/user-attachments/assets/051942bc-e2a5-4c90-95d5-e4d5b80eee89" />
 
+```Python
+def namechooser():
+    '''selects a name'''
+    for i in range(3):
+        name = input("Enter a name:")
+        if name =="bob":
+            print("You are awesome!")
+        elif name.lower() =="john":
+            print("its alright")
+        else: 
+            print("boring")
+            
+#namechooser()
+```
+<img width="252" height="51" alt="image" src="https://github.com/user-attachments/assets/7ec7cf81-7cbe-40d3-bfc8-b70cea6f48ad" />
+
+```Python
+
+```
 
