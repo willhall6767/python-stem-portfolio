@@ -35,8 +35,8 @@ This portfolio documents my progress through a Python programming course designe
 | 2 | [Number Guessing Game](#Number-Guessing-Game-portfolio-projects) | Loops, conditionals, random | ✅ Complete |
 | 3 | [To-Do List Manager](#To-do-list-manager-portfolio-projects) | Lists, functions, data structures | ✅ Complete |
 | 4 | [Student Grade Calculator](#Student-grade-calculator-portfolio-projects) | Dictionaries, validation, error handling | ✅ Complete |
-| 5 | [OOP Bank Account](#OOP-Bank-Account) | Classes, OOP principles | ✅ Complete |
-| 6 | [Data Analysis Notebook](#Data-analysis-notebook-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 5 | [OOP Bank Account](#OOP-Bank-Account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
+| 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 
