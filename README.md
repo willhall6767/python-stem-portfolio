@@ -66,16 +66,105 @@ This portfolio documents my progress through a Python programming course designe
 -  ## Unit Converter |[Portfolio Projects](#Portfolio-projects)
   - **A program that converts between common units.**
 ``` Python
-def FTempConverter():
-    '''Tem converter'''
-    temp = float(input(" Enter Celcius temp: "))
-    f = (temp*9)/5+32
-    print(f"{temp} C is {f} F")
-FTempConverter()
+def km_to_miles(km):
+    return km * 0.621371
+
+def miles_to_km(miles):
+    return miles / 0.621371
+
+def c_to_f(c):
+    return (c * 9/5) + 32
+
+def f_to_c(f):
+    return (f - 32) * 5/9
+
+def kg_to_pounds(kg):
+    return kg * 2.20462
+
+def pounds_to_kg(pounds):
+    return pounds / 2.20462
+
+def litres_to_pints(litres):
+    # UK pints
+    return litres * 1.75975
+
+def pints_to_litres(pints):
+    return pints / 1.75975
+
+
+def get_number(prompt):
+    """Safely get a numeric input from the user."""
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a number.")
+
+
+def show_menu():
+    print("\n=== Unit Converter ===")
+    print("1. Kilometres to Miles")
+    print("2. Miles to Kilometres")
+    print("3. Celsius to Fahrenheit")
+    print("4. Fahrenheit to Celsius")
+    print("5. Kilograms to Pounds")
+    print("6. Pounds to Kilograms")
+    print("7. Litres to Pints")
+    print("8. Pints to Litres")
+    print("9. Exit")
+
+
+def main():
+    while True:
+        show_menu()
+        choice = input("Enter your choice (1-9): ")
+
+        if choice == "1":
+            km = get_number("Enter kilometres: ")
+            print(f"{km} km = {km_to_miles(km):.2f} miles")
+
+        elif choice == "2":
+            miles = get_number("Enter miles: ")
+            print(f"{miles} miles = {miles_to_km(miles):.2f} km")
+
+        elif choice == "3":
+            c = get_number("Enter Celsius: ")
+            print(f"{c}°C = {c_to_f(c):.2f}°F")
+
+        elif choice == "4":
+            f = get_number("Enter Fahrenheit: ")
+            print(f"{f}°F = {f_to_c(f):.2f}°C")
+
+        elif choice == "5":
+            kg = get_number("Enter kilograms: ")
+            print(f"{kg} kg = {kg_to_pounds(kg):.2f} pounds")
+
+        elif choice == "6":
+            pounds = get_number("Enter pounds: ")
+            print(f"{pounds} pounds = {pounds_to_kg(pounds):.2f} kg")
+
+        elif choice == "7":
+            litres = get_number("Enter litres: ")
+            print(f"{litres} litres = {litres_to_pints(litres):.2f} pints")
+
+        elif choice == "8":
+            pints = get_number("Enter pints: ")
+            print(f"{pints} pints = {pints_to_litres(pints):.2f} litres")
+
+        elif choice == "9":
+            print("Goodbye!")
+            break
+
+        else:
+            print("Invalid choice. Please select 1-9.")
+
+
+# Run the program
+main()
 ```
 What should happen:
 
-<img width="327" height="58" alt="SS5" src="https://github.com/user-attachments/assets/b941d561-5735-4d8c-9dd6-288f0f4f414b" />
+<img width="318" height="551" alt="image" src="https://github.com/user-attachments/assets/ffc77db8-852d-4569-881a-97d3abe7a34d" />
 
 ```
 ```
