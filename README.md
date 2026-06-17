@@ -31,12 +31,12 @@ This portfolio documents my progress through a Python programming course designe
 
 | # | Project | Key Skills | Status |
 |---|---|---|---|
-| 1 | [Unit Converter](#) | Variables, functions, input/output | ✅ Complete | 
-| 2 | [Number Guessing Game](#) | Loops, conditionals, random | ✅ Complete |
-| 3 | [To-Do List](#) | Lists, functions, data structures | ✅ Complete |
-| 4 | [Student Grade Calculator](#) | Dictionaries, validation, error handling | ✅ Complete |
-| 5 | [OOP Bank Account](#) | Classes, OOP principles | ✅ Complete |
-| 6 | [Data Analysis Notebook](#) | Jupyter Notebooks, data exploration | ✅ Complete |
+| 1 | [Unit Converter](#Unit-converter-portfolio-projects) | Variables, functions, input/output | ✅ Complete | 
+| 2 | [Number Guessing Game](#Number-Guessing-Game-portfolio-projects) | Loops, conditionals, random | ✅ Complete |
+| 3 | [To-Do List Manager](#To-do-list-manager-portfolio-projects) | Lists, functions, data structures | ✅ Complete |
+| 4 | [Student Grade Calculator](#Student-grade-calculator-portfolio-projects) | Dictionaries, validation, error handling | ✅ Complete |
+| 5 | [OOP Bank Account](#OOP-Bank-Account) | Classes, OOP principles | ✅ Complete |
+| 6 | [Data Analysis Notebook](#Data-analysis-notebook-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
 
 ---
 
@@ -64,7 +64,7 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 ## Project Codes
-- Converter
+- Unit Converter |[Portfolio Projects](#Portfolio-projects)
 ``` Python
 def FTempConverter():
     '''Tem converter'''
@@ -79,7 +79,7 @@ What should happen:
 
 ```
 ```
-- Number Guessing Game
+- Number Guessing Game |[Portfolio Projects](#Portfolio-projects)
   - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
 ```
 ``` Python
@@ -110,7 +110,7 @@ What should happen:
 
 ```
 ```
-- To-Do List Manager
+- To-Do List Manager |[Portfolio Projects](#Portfolio-projects)
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
 ```
 ``` Python
@@ -171,7 +171,7 @@ What should happen:
 
 ```
 ```
-- Student Grade Calculater
+- Student Grade Calculator |[Portfolio Projects](#Portfolio-projects)
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
 ```
 ``` Python
@@ -226,7 +226,7 @@ What should happen:
 
 ```
 ```
-- OOP Bank Account
+- OOP Bank Account |[Portfolio Projects](#Portfolio-projects)
   - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
 ```
 ``` Python
@@ -310,7 +310,7 @@ What should happen:
 
 ```
 ```
-- Contact Book with File Saving
+- Contact Book with File Saving |[Portfolio Projects](#Portfolio-projects)
   - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
 ```
 ``` Python
