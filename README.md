@@ -63,8 +63,7 @@ This portfolio documents my progress through a Python programming course designe
 
 ---
 
-## Project Codes
-- Unit Converter |[Portfolio Projects](#Portfolio-projects)
+-  ## Unit Converter |[Portfolio Projects](#Portfolio-projects)
 ``` Python
 def FTempConverter():
     '''Tem converter'''
@@ -79,7 +78,7 @@ What should happen:
 
 ```
 ```
-- Number Guessing Game |[Portfolio Projects](#Portfolio-projects)
+-  ## Number Guessing Game |[Portfolio Projects](#Portfolio-projects)
   - **For this project I have programmed a code which will firstly tell you that it is thinking of a number from 1-100 and ask you for your first guess. Once you put you guess in it will tell you if you guessed too high, too low or correct. If you guessed too high or too low it will ask you again for your guess again and it will repeat this process untill you guess correctly. Finally, it will tell you how many attempts it took for you to guess the number it was thinking of.**
 ```
 ``` Python
@@ -110,7 +109,7 @@ What should happen:
 
 ```
 ```
-- To-Do List Manager |[Portfolio Projects](#Portfolio-projects)
+- ## To-Do List Manager |[Portfolio Projects](#Portfolio-projects)
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
 ```
 ``` Python
@@ -171,7 +170,7 @@ What should happen:
 
 ```
 ```
-- Student Grade Calculator |[Portfolio Projects](#Portfolio-projects)
+- ## Student Grade Calculator |[Portfolio Projects](#Portfolio-projects)
   - **For this project I programmed a code which will firstly ask your for your name, it will then ask you to put in the scores you got for each subject - maths, english and science - then it will calculate the percentages you got for each of these subjects and also give you a grade.**
 ```
 ``` Python
@@ -226,7 +225,7 @@ What should happen:
 
 ```
 ```
-- OOP Bank Account |[Portfolio Projects](#Portfolio-projects)
+- ## OOP Bank Account |[Portfolio Projects](#Portfolio-projects)
   - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
 ```
 ``` Python
@@ -310,7 +309,7 @@ What should happen:
 
 ```
 ```
-- Contact Book with File Saving |[Portfolio Projects](#Portfolio-projects)
+- ## Contact Book with File Saving |[Portfolio Projects](#Portfolio-projects)
   - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
 ```
 ``` Python
