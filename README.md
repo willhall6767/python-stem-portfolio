@@ -193,6 +193,7 @@ def play_game():
             print(f"Correct! You got it in {attempts} attempts.")
             break  # Exit the loop
 ```
+```
 What should happen:
 
 <img width="518" height="152" alt="SS1" src="https://github.com/user-attachments/assets/e474027b-24c3-49d9-aa9f-419c79a6663c" />
