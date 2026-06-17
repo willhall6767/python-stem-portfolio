@@ -197,11 +197,11 @@ What should happen:
 
 <img width="518" height="152" alt="SS1" src="https://github.com/user-attachments/assets/e474027b-24c3-49d9-aa9f-419c79a6663c" />
 
-```
-```
+
+
 - ## To-Do List Manager |[Portfolio Projects](#Portfolio-projects)
   - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
-```
+
 ``` Python
 def show_tasks(tasks):
     """Display all tasks with their numbers."""
@@ -254,6 +254,7 @@ def main():
 
 main()
 ```
+
 What should happen:
 
 <img width="719" height="797" alt="{D22EC756-BBF7-4E40-9FAF-93BB3456B56B}" src="https://github.com/user-attachments/assets/5e43b9ec-bbe5-4f1e-b6ca-f058e682b646" />
