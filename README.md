@@ -460,6 +460,9 @@ What should happen:
 
 <img width="581" height="473" alt="SS4" src="https://github.com/user-attachments/assets/051942bc-e2a5-4c90-95d5-e4d5b80eee89" />
 
+
+- ## Name chooser |[Portfolio Projects](#Portfolio-projects)
+  - **A piece of code that takes in your name, analysis it and then tells you its opinion on it**
 ```Python
 def namechooser():
     '''selects a name'''
@@ -476,7 +479,5 @@ def namechooser():
 ```
 <img width="252" height="51" alt="image" src="https://github.com/user-attachments/assets/7ec7cf81-7cbe-40d3-bfc8-b70cea6f48ad" />
 
-```Python
 
-```
 
