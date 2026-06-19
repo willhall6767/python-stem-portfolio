@@ -477,7 +477,126 @@ def namechooser():
             
 #namechooser()
 ```
+What should happen:
+
 <img width="252" height="51" alt="image" src="https://github.com/user-attachments/assets/7ec7cf81-7cbe-40d3-bfc8-b70cea6f48ad" />
+
+
+- ## Movie rating list
+  - **A piece of code which takes in the movie name, date it was made, director, its genre and your personal rating of the movie. Then after you have repeatadly inserted these different stats then it will put these stats into a table and display it**
+```
+import sqlite3
+
+def dbConnection():
+    # Create connection to database
+    conn = sqlite3.connect('movie_list.db')
+    cursor = conn.cursor()
+
+    # Create table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS movielist (
+              item_id INTEGER PRIMARY KEY AUTOINCREMENT,
+              item_name TEXT NOT NULL,
+              year INTEGER NOT NULL,
+              director TEXT, 
+              genre TEXT NOT NULL,
+              rating INTEGER
+        )
+    ''')
+    conn.commit()
+    return conn, cursor
+
+
+def insertData():
+    '''add data to the database table'''
+    query = '''INSERT INTO movielist (item_name, year, director, genre, rating)
+VALUES ("Waves", 2019, "Trey Edward Shutts", "drama", 10);'''
+    conn, cursor = dbConnection()
+    cursor.execute(query)
+    conn.commit()
+    conn.close()
+
+
+def insertDataWithParameters():
+    '''add data to the database table'''
+    query = '''INSERT INTO movielist (item_name, year, director, genre, rating)
+VALUES (?, ?, ?, ?, ?);'''
+    item_name = input('Enter the item name:')
+    year = int(input('Enter the year:'))
+    director = input('Enter the directors name:')
+    genre = input('Enter the genre:')
+    rating = int(input('Enter your rating:'))
+
+    conn, cursor = dbConnection()
+    cursor.execute(query, (item_name, year, director, genre, rating))
+    conn.commit()
+    conn.close()
+    print("Record was successfully saved")
+
+
+def readDatabase():
+    '''read data from a table'''
+    query = """SELECT * FROM movielist"""
+    conn, cursor = dbConnection()
+    cursor.execute(query)
+    results = cursor.fetchall()
+
+    print(f'{"item name":<20} {"Year":<6} {"Director":<25} {"Genre":<20} {"Rating":<6}')
+    for row in results:
+        print(f'{row[1]:<20} {row[2]:<6} {row[3]:<25} {row[4]:<20} {row[5]:<5}')
+    conn.close()
+
+
+def delete():
+    userChange = input('Which item name would you like to delete?: ')
+    query = '''DELETE FROM movielist WHERE item_name = ?'''
+
+    conn, cursor = dbConnection()
+    cursor.execute(query, (userChange,))
+    conn.commit()
+    conn.close()
+    print("Record deleted (if it existed).")
+
+
+def menu():
+    title = 'Movie List Ratings'
+    line = '-'
+    menu = '''1. Add item (s)
+2. Show items
+3. Remove item
+4. Update item
+5. Quit
+'''
+    print(f"{title}\n{line*len(title)}")
+    print(menu)
+
+
+def main():
+    '''Main user interface'''
+    while True:
+        menu()
+        userChoice = int(input('Choose an option:'))
+
+        if userChoice == 5:
+            print('--------------End of program------------')
+            break
+
+        elif userChoice == 1:
+            insertDataWithParameters()
+
+        elif userChoice == 2:
+            readDatabase()
+
+        elif userChoice == 3:
+            delete()
+
+        elif userChoice == 4:
+            print("Update function not implemented yet.")
+```
+What should happen:
+
+<img width="939" height="297" alt="image" src="https://github.com/user-attachments/assets/2b158ad6-e580-4335-b707-4d44bf1c0c1a" />
+
 
 
 
