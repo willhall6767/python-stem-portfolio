@@ -484,7 +484,7 @@ What should happen:
 
 - ## Movie rating list
   - **A piece of code which takes in the movie name, date it was made, director, its genre and your personal rating of the movie. Then after you have repeatadly inserted these different stats then it will put these stats into a table and display it**
-```
+```Python
 import sqlite3
 
 def dbConnection():
