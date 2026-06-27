@@ -38,6 +38,7 @@ This portfolio documents my progress through a Python programming course designe
 | 5 | [OOP Bank Account](#OOP-Bank-Account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
 | 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
 | 7 | [Name chooser](#Name-chooser-portfolio-projects) | Entering, analysing, showing | ✅ Complete |
+| 8 | [Movie rating list](Movie-rating-list-portfolio-projects) | Entering, interpreting, showing | ✅ Complete |
 ---
 
 ## Skills I Have Developed 
@@ -482,7 +483,7 @@ What should happen:
 <img width="252" height="51" alt="image" src="https://github.com/user-attachments/assets/7ec7cf81-7cbe-40d3-bfc8-b70cea6f48ad" />
 
 
-- ## Movie rating list
+- ## Movie rating list |[Portfolio Projects](#Portfolio-projects)
   - **A piece of code which takes in the movie name, date it was made, director, its genre and your personal rating of the movie. Then after you have repeatadly inserted these different stats then it will put these stats into a table and display it**
 ```Python
 import sqlite3
