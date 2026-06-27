@@ -38,7 +38,7 @@ This portfolio documents my progress through a Python programming course designe
 | 5 | [OOP Bank Account](#OOP-Bank-Account-portfolio-projects) | Classes, OOP principles | ✅ Complete |
 | 6 | [Contact book with file saving](#Contact-book-with-file-saving-portfolio-projects) | Jupyter Notebooks, data exploration | ✅ Complete |
 | 7 | [Name chooser](#Name-chooser-portfolio-projects) | Entering, analysing, showing | ✅ Complete |
-| 8 | [Movie rating list](Movie-rating-list-portfolio-projects) | Entering, interpreting, showing | ✅ Complete |
+| 8 | [Movie rating list](#Movie-rating-list-portfolio-projects) | Entering, interpreting, showing | ✅ Complete |
 ---
 
 ## Skills I Have Developed 
