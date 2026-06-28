@@ -318,7 +318,7 @@ What should happen:
 
 
 - ## OOP Bank Account |[Portfolio Projects](#Portfolio-projects)
-  - **A simple bank account simulation using a class. The user can deposit money, withdraw money (with a check for sufficient funds), and check their balance.**
+  - **This is a simple bank acocunt simulation which initially asks for the bank account holder's name and then also asks for the opening balance. Then out of a menu of 5 options, it will ask you to select one. Once you have selected an option it will then ask you to enter something for this option for example an amount of money. Once this is completed it will then show you your new account balance**
 
 ``` Python
 class BankAccount:
@@ -402,7 +402,7 @@ What should happen:
 
 
 - ## Contact Book with File Saving |[Portfolio Projects](#Portfolio-projects)
-  - **A contact book that saves names and phone numbers to a text file. Each time you run the program, it loads existing contacts from the file.**
+  - **This is a contact book which firstly gives you can option of 3 things. Once you have picked one of these options for example adding a contact, it will ask for the name of this contact and their number. Once you have done this it will record this data. One of the other options is to view contacts. Once you have added multiple contacts if you select the option to view contacts it will display the contacts that you have previously entered.**
 ```
 ``` Python
 import os
