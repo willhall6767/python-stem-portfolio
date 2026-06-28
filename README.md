@@ -1,7 +1,7 @@
 # Python Programming Portfolio
 
 **William Hall**
-**Bishoo's Stortford College**
+**Bishop's Stortford College**
 **Python for STEM**
 **Year 12**
 
