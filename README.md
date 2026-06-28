@@ -65,7 +65,7 @@ This portfolio documents my progress through a Python programming course designe
 ---
 
 -  ## Unit Converter |[Portfolio Projects](#Portfolio-projects)
-  - **A program that converts between common units.**
+  - **A program that converts between common units. It inlcudes kilometers to miles, miles to kilometers, fahrenheit to degress celcius, degrees celcuis to fahrenheit, kg to pounds, pounds to kg, pints to litres and litres to pints.**
 ``` Python
 def km_to_miles(km):
     return km * 0.621371
@@ -201,7 +201,7 @@ What should happen:
 
 
 - ## To-Do List Manager |[Portfolio Projects](#Portfolio-projects)
-  - **A simple to-do list where the user can add tasks, view all tasks, mark a task as done, and remove tasks.**
+  - **This is a simple to-do list where the used can enter tasks that they have and the program will record these, the user can also present all of the tasks that the user has entered when asked tro, it can also mark tasks as done once they have been completes and finally it can also remove tasks that the user had previously added which they no longer want.**
 
 ``` Python
 def show_tasks(tasks):
